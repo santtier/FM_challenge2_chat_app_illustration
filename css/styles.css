@@ -15,3 +15,102 @@ body {
   font-size: 1.6rem;
   background-color: hsl(270, 20%, 96%);
 }
+
+.bg-color {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 600px;
+  width: 50%;
+  background-color: #b43fff;
+  border-bottom-right-radius: 200px;
+}
+
+.bg-color-two {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 600px;
+  background: #f0edf4;
+  border-top-left-radius: 200px;
+  z-index: -1;
+}
+
+.phone {
+  padding-top: 96px;
+}
+
+.phone__container {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  background: #f5f3f8;
+  border-radius: 30px;
+  border: 10px solid #fff;
+  overflow: hidden;
+  box-shadow: 0 0 20px 20px rgba(53, 53, 53, 0.3);
+}
+
+/*Header chat styles*/
+.phone__header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 20px 14px;
+  background: linear-gradient(
+    to left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 8px;
+  box-shadow: 0 0 8px 5px rgba(53, 53, 53, 0.3);
+}
+
+.phone__header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 20px;
+  width: 55%;
+  background-color: #fff;
+  right: 50%;
+  transform: translateX(50%);
+  border-radius: 0 0 16px 16px;
+}
+
+.phone__icon-return,
+.phone__more-options {
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.phone__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 0 12px;
+}
+
+.phone__header-user-info {
+  display: flex;
+  align-items: center;
+}
+
+.phone__user-info {
+  line-height: 1.6rem;
+}
+
+.phone__user-info-name {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.phone__user-info-available {
+  font-size: 1rem;
+  color: hsl(276, 100%, 81%);
+}
