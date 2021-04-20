@@ -210,3 +210,46 @@ body {
 }
 
 /*Styles for input send message*/
+.phone-send-message {
+  padding: 12px;
+  padding-top: 0;
+}
+
+.phone-send-message__form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 12px;
+  padding-right: 4px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.phone-send-message__input {
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  padding-left: 8px;
+}
+
+::placeholder {
+  color: hsl(206, 6%, 79%);
+  font-size: 1rem;
+}
+
+.phone-send-message__button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: hsl(271, 36%, 24%);
+  border: 1px solid hsl(289, 100%, 72%);
+}
+
+.phone-send-message__icon {
+  color: #fff;
+  margin-left: 4px;
+}
+
+/*Styles for section text*/
