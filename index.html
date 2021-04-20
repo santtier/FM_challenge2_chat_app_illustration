@@ -42,42 +42,69 @@
             ></span>
           </div>
           <section class="phone-chat">
-            <div class="phone-chat__message">
+            <div class="phone-chat__message phone-chat__message--left">
               <p class="phone-chat__text">
-                That sounds great. I’d be happy with that.
+                That sounds great. I’d be happy to discuss more.
               </p>
             </div>
-            <div class="phone-chat__message">
+            <div class="phone-chat__message phone-chat__message--left">
               <p class="phone-chat__text">
                 Could you send over some pictures of your dog, please?
               </p>
             </div>
-            <figure class="phone-chat__image-message">
-              <img src="./images/dog-image-1.jpg" alt="dog1" />
-              <img src="./images/dog-image-2.jpg" alt="dog2" />
-              <img src="./images/dog-image-3.jpg" alt="dog3" />
+            <figure class="phone-chat__message-images">
+              <img
+                class="phone-chat__dog-image"
+                src="./images/dog-image-1.jpg"
+                alt="dog1"
+              />
+              <img
+                class="phone-chat__dog-image"
+                src="./images/dog-image-2.jpg"
+                alt="dog2"
+              />
+              <img
+                class="phone-chat__dog-image"
+                src="./images/dog-image-3.jpg"
+                alt="dog3"
+              />
             </figure>
-            <div class="phone-chat__message">
+            <div class="phone-chat__message phone-chat__message--right">
               <p>Here are a few pictures. She’s a happy girl!</p>
             </div>
-            <div class="phone-chat__message">
+            <div
+              class="phone-chat__message phone-chat__message--right phone-chat__message--mg-btm"
+            >
               <p class="phone-chat__text">Can you make it?</p>
             </div>
-            <div class="phone-chat__message">
+            <div class="phone-chat__message phone-chat__message--left">
               <p class="phone-chat__text">
                 She looks so happy! The time we discussed works. How long shall
                 I take her out for?
               </p>
             </div>
             <div class="phone-options-payment">
-              <input type="radio" />
-              <p>30 minute walk</p>
-              <span class="phone-options-payment__price">$29</span>
+              <label for="myRadioId" class="phone-options-payment__radio">
+                <input
+                  type="radio"
+                  class="phone-options-payment__input"
+                  id="myRadioId"
+                />
+                30 minute walk
+              </label>
+              <p class="phone-options-payment__price">$29</p>
             </div>
             <div class="phone-options-payment">
-              <input type="radio" />
-              <p>1 hour walk</p>
-              <span class="phone-options-payment__price">$49</span>
+              <label for="myRadioId" class="phone-options-payment__radio">
+                <input
+                  class="phone-options-payment__input"
+                  type="radio"
+                  id="myRadioId"
+                />
+                <!-- <div></div> -->
+                1 hour walk
+              </label>
+              <p class="phone-options-payment__price">$49</p>
             </div>
           </section>
           <section class="phone-send-message">
