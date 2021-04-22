@@ -18,120 +18,126 @@
     <title>Chat app challenge</title>
   </head>
   <body>
-    <div class="bg-color"></div>
-    <main>
-      <section class="phone">
-        <article class="phone__container">
-          <div class="phone__header">
-            <div class="phone__header-user-info">
-              <span class="phone__icon-return"
-                ><i class="fas fa-chevron-left"></i
-              ></span>
-              <img
-                class="phone__avatar"
-                src="./images/avatar.jpg"
-                alt="avatar"
-              />
-              <div class="phone__user-info">
-                <p class="phone__user-info-name">Samuel Green</p>
-                <p class="phone__user-info-available">Available to work</p>
+    <div class="bg-color-container">
+      <div class="bg-color"></div>
+      <main class="content">
+        <section class="phone">
+          <article class="phone__container">
+            <div class="phone__header">
+              <div class="phone__header-container">
+                <div class="phone__header-user-info">
+                  <span class="phone__icon-return"
+                    ><i class="fas fa-chevron-left"></i
+                  ></span>
+                  <img
+                    class="phone__avatar"
+                    src="./images/avatar.jpg"
+                    alt="avatar"
+                  />
+                  <div class="phone__user-info">
+                    <p class="phone__user-info-name">Samuel Green</p>
+                    <p class="phone__user-info-available">Available to work</p>
+                  </div>
+                </div>
+                <span class="phone__more-options"
+                  ><i class="fas fa-ellipsis-v"></i>
+                </span>
               </div>
             </div>
-            <span class="phone__more-options"
-              ><i class="fas fa-ellipsis-v"></i
-            ></span>
-          </div>
-          <section class="phone-chat">
-            <div class="phone-chat__message phone-chat__message--left">
-              <p class="phone-chat__text">
-                That sounds great. I’d be happy to discuss more.
-              </p>
-            </div>
-            <div class="phone-chat__message phone-chat__message--left">
-              <p class="phone-chat__text">
-                Could you send over some pictures of your dog, please?
-              </p>
-            </div>
-            <figure class="phone-chat__message-images">
-              <img
-                class="phone-chat__dog-image"
-                src="./images/dog-image-1.jpg"
-                alt="dog1"
-              />
-              <img
-                class="phone-chat__dog-image"
-                src="./images/dog-image-2.jpg"
-                alt="dog2"
-              />
-              <img
-                class="phone-chat__dog-image"
-                src="./images/dog-image-3.jpg"
-                alt="dog3"
-              />
-            </figure>
-            <div class="phone-chat__message phone-chat__message--right">
-              <p>Here are a few pictures. She’s a happy girl!</p>
-            </div>
-            <div
-              class="phone-chat__message phone-chat__message--right phone-chat__message--mg-btm"
-            >
-              <p class="phone-chat__text">Can you make it?</p>
-            </div>
-            <div class="phone-chat__message phone-chat__message--left">
-              <p class="phone-chat__text">
-                She looks so happy! The time we discussed works. How long shall
-                I take her out for?
-              </p>
-            </div>
-            <div class="phone-options-payment">
-              <label for="myRadioId" class="phone-options-payment__radio">
-                <input
-                  type="radio"
-                  class="phone-options-payment__input"
-                  id="myRadioId"
+            <section class="phone-chat">
+              <div class="phone-chat__message phone-chat__message--left">
+                <p class="phone-chat__text">
+                  That sounds great. I’d be happy to discuss more.
+                </p>
+              </div>
+              <div class="phone-chat__message phone-chat__message--left">
+                <p class="phone-chat__text">
+                  Could you send over some pictures of your dog, please?
+                </p>
+              </div>
+              <figure class="phone-chat__message-images">
+                <img
+                  class="phone-chat__dog-image"
+                  src="./images/dog-image-1.jpg"
+                  alt="dog1"
                 />
-                30 minute walk
-              </label>
-              <p class="phone-options-payment__price">$29</p>
-            </div>
-            <div class="phone-options-payment">
-              <label for="myRadioId" class="phone-options-payment__radio">
-                <input
-                  class="phone-options-payment__input"
-                  type="radio"
-                  id="myRadioId"
+                <img
+                  class="phone-chat__dog-image"
+                  src="./images/dog-image-2.jpg"
+                  alt="dog2"
                 />
-                <!-- <div></div> -->
-                1 hour walk
-              </label>
-              <p class="phone-options-payment__price">$49</p>
-            </div>
-          </section>
-          <section class="phone-send-message">
-            <form class="phone-send-message__form" action="">
-              <input
-                class="phone-send-message__input"
-                type="text"
-                placeholder="Type a message..."
-              />
-              <button class="phone-send-message__button">
-                <i class="fas fa-chevron-right phone-send-message__icon"></i>
-              </button>
-            </form>
-          </section>
-        </article>
-      </section>
-      <section class="app-text">
-        <h1 class="app-text__title">Simple booking</h1>
-        <p class="app-text__description">
-          Stay in touch with our dog walkers through the chat interface. This
-          makes it easy to discuss arrangements and make bookings. Once the walk
-          has been completed you can rate your walker and book again all through
-          the chat.
-        </p>
-      </section>
-    </main>
-    <div class="bg-color-two"></div>
+                <img
+                  class="phone-chat__dog-image"
+                  src="./images/dog-image-3.jpg"
+                  alt="dog3"
+                />
+              </figure>
+              <div class="phone-chat__message phone-chat__message--right">
+                <p>Here are a few pictures. She’s a happy girl!</p>
+              </div>
+              <div
+                class="phone-chat__message phone-chat__message--right phone-chat__message--mg-btm"
+              >
+                <p class="phone-chat__text">Can you make it?</p>
+              </div>
+              <div class="phone-chat__message phone-chat__message--left">
+                <p class="phone-chat__text">
+                  She looks so happy! The time we discussed works. How long
+                  shall I take her out for?
+                </p>
+              </div>
+              <div class="phone-options-payment">
+                <label for="myRadioId" class="phone-options-payment__radio">
+                  <input
+                    type="radio"
+                    class="phone-options-payment__input"
+                    id="myRadioId"
+                  />
+                  30 minute walk
+                </label>
+                <p class="phone-options-payment__price">$29</p>
+              </div>
+              <div class="phone-options-payment">
+                <label for="myRadioId" class="phone-options-payment__radio">
+                  <input
+                    class="phone-options-payment__input"
+                    type="radio"
+                    id="myRadioId"
+                  />
+                  <!-- <div></div> -->
+                  1 hour walk
+                </label>
+                <p class="phone-options-payment__price">$49</p>
+              </div>
+            </section>
+            <section class="phone-send-message">
+              <form class="phone-send-message__form" action="">
+                <input
+                  class="phone-send-message__input"
+                  type="text"
+                  placeholder="Type a message..."
+                />
+                <button class="phone-send-message__button">
+                  <i class="fas fa-chevron-right phone-send-message__icon"></i>
+                </button>
+              </form>
+            </section>
+          </article>
+        </section>
+        <section class="app-text">
+          <article class="app-text__container">
+            <h1 class="app-text__title">Simple booking</h1>
+            <p class="app-text__description">
+              Stay in touch with our dog walkers through the chat interface.
+              This makes it easy to discuss arrangements and make bookings. Once
+              the walk has been completed you can rate your walker and book
+              again all through the chat.
+            </p>
+          </article>
+        </section>
+      </main>
+      <div class="bg-color-two"></div>
+    </div>
     <!-- script for icon -->
     <script
       src="https://kit.fontawesome.com/71a069b2eb.js"
